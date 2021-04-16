@@ -1,0 +1,135 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+
+}
+
+body {
+ background-color: #E5E5E5;
+}
+
+.form-cv{
+ max-width: 600px;
+ margin: 60px auto;
+ height: auto;
+ background-color: white;
+ box-shadow: -5px 5px 21px 5px #aaaaaa9c;
+ border-radius: 5px;
+}
+
+.content {
+ text-align: center;
+ padding-top: 30px;
+ padding-bottom: 30px;
+ border-bottom: 3px solid #00000096;
+}
+
+h1{
+ font-size: 3rem;
+ letter-spacing: 1px;
+ padding-bottom: 12px;
+ color: #A1D2E8;
+ font-weight: 600;
+}
+
+p{
+ font-weight: 600;
+ font-size: 1.4rem;
+
+}
+
+
+form {
+ padding: 50px;
+}
+
+.content{
+ margin-bottom: 20px;
+
+}
+
+.name{
+ display: flex;
+ justify-content: space-between;
+ margin-bottom: 20px;
+}
+
+.phone{
+ display: flex;
+ justify-content: space-between;
+ margin-bottom: 20px;
+}
+
+label{
+
+ font-weight: 600;
+ font-size: 14px;
+ line-height: 34px;
+}
+
+input{
+ margin-left: 28px;
+ padding: 7px;
+ border: 1px solid #e2cece;
+ border-radius: 5px;
+ width: 75%;
+}
+
+.position{
+ display: flex;
+ justify-content: space-between;
+}
+
+select{
+ margin-left: 28px;
+ padding: 7px;
+ border: 1px solid #e2cece;
+ border-radius: 5px;
+ width: 75%;
+}
+
+.exp{
+ display: flex;
+ justify-content: space-between;
+ margin-top: 20px;
+}
+
+textarea{
+ border: 1px solid #e2cece;
+ border-radius: 5px;
+ width: 82%;
+ height: 117px;
+}
+
+#img{
+ margin-left: 0;
+ float: right;
+ margin-top: 5px;
+ border: none;
+}
+
+.email{
+ display: flex;
+ justify-content: space-between;
+ margin-top: 50px;
+}
+
+.submit{
+ text-align: center;
+}
+
+button{
+ margin-top: 32px;
+ padding: 10px;
+ width: 50%;
+ border-radius: 6px;
+ background-color: #64C5DA;
+ color: white;
+ border: 1px solid;
+}
+
+button:hover{
+ cursor: pointer;
+ background-color: blue;
+}
